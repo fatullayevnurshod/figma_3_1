@@ -105,7 +105,7 @@ nav .nav__right i {
   margin-bottom: 3rem;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 820px) {
   nav .nav__right ul {
     display: flex;
     column-gap: 40px;
@@ -121,7 +121,7 @@ nav .nav__right i {
     display: none;
   }
   .hero .hero__info h1 {
-    font-size: 6.534rem;
+    font-size: 5.534rem;
     line-height: 125.497%;
   }
   .hero .hero__imgs {
@@ -129,8 +129,7 @@ nav .nav__right i {
     column-gap: 28px;
   }
   .hero .hero__imgs img {
-    max-width: 42.7rem;
-    height: 39rem;
+    max-width: 50%;
   }
   .hero .hero__imgs .yoga {
     margin-bottom: 0;
@@ -181,9 +180,9 @@ nav .nav__right i {
   display: none;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 820px) {
   #Wellbeing .wellbeing__left h2 {
-    font-size: 5.052rem;
+    font-size: 4.052rem;
     line-height: 122.724%;
   }
   .Wellbeing__data {
@@ -211,6 +210,10 @@ nav .nav__right i {
   }
   .Wellbeing__data .data_1 img {
     margin-left: 0;
+  }
+  #Wellbeing .wellbeing__left h2 {
+    font-size: 5.052rem;
+    text-align: start;
   }
 }
 #organic_produce {
@@ -264,17 +267,18 @@ nav .nav__right i {
   display: none;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 820px) {
   #organic_produce {
     padding: 8rem 0;
     display: flex;
-    justify-content: space-between;
+    column-gap: 25px;
+    justify-content: center;
   }
   #organic_produce .organic_produce__left img {
-    max-width: 42.9rem;
+    max-width: 32.9rem;
   }
   #organic_produce .organic_produce__right {
-    max-width: 43rem;
+    max-width: 63rem;
   }
   #organic_produce .organic_produce__right h2 {
     font-size: 5.052rem;
@@ -287,7 +291,7 @@ nav .nav__right i {
     margin-bottom: 90px;
   }
   .rose__data {
-    row-gap: 5rem;
+    row-gap: 4rem;
   }
   .rose__data .rose__info p {
     text-align: start;
@@ -315,6 +319,15 @@ nav .nav__right i {
   }
   #organic_produce .organic_produce__right {
     max-width: 62.3rem;
+  }
+  #organic_produce {
+    padding: 8rem 0;
+    display: flex;
+    column-gap: 25px;
+    justify-content: center;
+  }
+  #organic_produce .organic_produce__right h2 {
+    font-size: 6.052rem;
   }
 }
 #food {
@@ -364,7 +377,7 @@ nav .nav__right i {
   margin: auto;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 820px) {
   #food {
     padding: 6.4rem 11.4rem;
     margin-bottom: 12rem;
@@ -373,7 +386,7 @@ nav .nav__right i {
     display: none;
   }
   #food .food_data h2 {
-    font-size: 5.052rem;
+    font-size: 4.052rem;
     line-height: 59.382%;
     margin-bottom: 4.1rem;
   }
@@ -494,7 +507,7 @@ nav .nav__right i {
   margin-top: 1.8rem;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 820px) {
   #welldoing {
     height: 66.7rem;
   }
@@ -503,7 +516,7 @@ nav .nav__right i {
   }
   #welldoing .welldoing__info h3 {
     max-width: 60.4rem;
-    font-size: 37.9px;
+    font-size: 30.9px;
     line-height: 94.987%;
     margin-top: 13px;
     margin-bottom: 1.3rem;
@@ -528,7 +541,7 @@ nav .nav__right i {
     height: 82.057px;
   }
   .branch_img_text {
-    max-width: 73.4rem;
+    max-width: 67.4rem;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
@@ -543,6 +556,9 @@ nav .nav__right i {
     max-width: 116.5rem;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+  }
+  #welldoing .welldoing__info h3 {
+    font-size: 37.9px;
   }
 }
 footer {
@@ -604,7 +620,7 @@ footer {
   row-gap: 3.6rem;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 820px) {
   footer {
     margin-top: 28rem;
   }

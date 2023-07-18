@@ -56,21 +56,22 @@
   }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 820px) {
   #organic_produce {
     padding: 8rem 0;
     display: flex;
-    // column-gap: 125px;
-    justify-content: space-between;
+    column-gap: 25px;
+    // margin: auto;
+    justify-content: center;
 
     .organic_produce__left {
       img {
-        max-width: 42.9rem;
+        max-width: 32.9rem;
         // height: 700px;
       }
     }
     .organic_produce__right {
-      max-width: 43rem;
+      max-width: 63rem;
       h2 {
         font-size: 5.052rem;
         line-height: 122.724%;
@@ -84,7 +85,7 @@
     }
   }
   .rose__data {
-    row-gap: 5rem;
+    row-gap: 4rem;
     .rose__info {
       p {
         text-align: start;
@@ -106,7 +107,6 @@
     align-items: center;
     padding: 12rem 0;
     .organic_produce__left {
-       
       .komp {
         display: inline-block;
         max-width: 100%;
@@ -116,7 +116,20 @@
       }
     }
     .organic_produce__right {
-        max-width: 62.3rem;
+      max-width: 62.3rem;
+    }
+  }
+  #organic_produce {
+    padding: 8rem 0;
+    display: flex;
+    column-gap: 25px;
+    // margin: auto;
+    justify-content: center;
+
+    .organic_produce__right {
+      h2 {
+        font-size: 6.052rem;
+      }
     }
   }
 }
