@@ -276,6 +276,7 @@ nav .nav__right i {
   }
   #organic_produce .organic_produce__left img {
     max-width: 32.9rem;
+    height: 100%;
   }
   #organic_produce .organic_produce__right {
     max-width: 63rem;
@@ -444,6 +445,7 @@ nav .nav__right i {
   background-size: cover;
   background-repeat: no-repeat;
   background-position-x: center;
+  border-radius: 18px;
 }
 #welldoing .welldoing__info {
   padding-top: 71px;
@@ -487,7 +489,7 @@ nav .nav__right i {
 }
 
 .branch_img_text {
-  max-width: 29.8rem;
+  max-width: 90%;
   background-color: #fce2d7;
   margin: auto;
   text-align: center;
