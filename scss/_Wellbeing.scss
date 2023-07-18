@@ -37,11 +37,11 @@
   display: none;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 820px) {
   #Wellbeing {
     .wellbeing__left {
       h2 {
-        font-size: 5.052rem;
+        font-size: 4.052rem;
         line-height: 122.724%;
       }
     }
@@ -74,6 +74,14 @@
       }
       img {
         margin-left:0 ;
+      }
+    }
+  }
+  #Wellbeing {
+    .wellbeing__left {
+      h2 {
+        font-size: 5.052rem;
+        text-align: start;
       }
     }
   }

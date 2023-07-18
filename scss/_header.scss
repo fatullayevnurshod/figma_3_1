@@ -92,7 +92,7 @@ nav {
   }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 820px) {
   nav {
     .nav__right {
       ul {
@@ -114,7 +114,7 @@ nav {
   .hero {
     .hero__info {
       h1 {
-        font-size: 6.534rem;
+        font-size: 5.534rem;
         line-height: 125.497%;
       }
     }
@@ -123,8 +123,7 @@ nav {
 
       column-gap: 28px;
       img {
-        max-width: 42.7rem;
-        height: 39rem;
+        max-width: 50%;
       }
       .yoga {
         margin-bottom: 0;
