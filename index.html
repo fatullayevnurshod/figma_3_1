@@ -9,10 +9,16 @@
       src="https://kit.fontawesome.com/9cae87800a.js"
       crossorigin="9cae87800a"
     ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
     <title>Nurshod</title>
   </head>
   <body>
-    <header>
+    <header class="container">
       <nav>
         <div class="nav__left">
           <span class="circle"></span>
@@ -25,6 +31,7 @@
             <li><a href="#">Team</a></li>
             <li><a href="#">Contact</a></li>
           </ul>
+          <i class="fa-solid fa-bars fa-bounce"></i>
         </div>
       </nav>
       <div class="hero">
@@ -40,6 +47,7 @@
           <img
             src="./imgs/jared-rice-xce530fBHrk-unsplash 1.svg"
             alt="jared-rice"
+            class="yoga"
           />
           <img
             src="./imgs/katherine-hanlon-mod2s3-qFOc-unsplash 1.svg"
@@ -75,7 +83,8 @@
       </section>
       <section id="organic_produce" class="container">
         <div class="organic_produce__left">
-          <img src="./imgs/seedling.svg" alt="seedling" />
+          <img src="./imgs/seedling.svg" alt="seedling" class="komp" />
+          <img src="./imgs/Group 12.png" alt="seedling" class="mobl" />
         </div>
         <div class="organic_produce__right">
           <h2>Fresh organic produce</h2>
@@ -115,19 +124,22 @@
           <img src="./imgs/Illustration.svg" alt="Illustration" />
         </div>
         <div class="food_data">
-          <div class="food_data_text">
-            <img src="./imgs/leaf_2.svg" alt="leaf" />
-            <p>
-              Lorem ipsum dolor sit amet consectetur. Quam ut consequat at a.
-              Diam lacus platea orci vel elit.
-            </p>
-          </div>
-          <div class="food_data_text">
-            <img src="./imgs/leaf_2.svg" alt="leaf" />
-            <p>
-              Lorem ipsum dolor sit amet consectetur. Quam ut consequat at a.
-              Diam lacus platea orci vel elit.
-            </p>
+          <h2>You are what you eat</h2>
+          <div class="food_data_2">
+            <div class="food_data_text">
+              <img src="./imgs/leaf_2.svg" alt="leaf" />
+              <p>
+                Lorem ipsum dolor sit amet consectetur. Quam ut consequat at a.
+                Diam lacus platea orci vel elit.
+              </p>
+            </div>
+            <div class="food_data_text">
+              <img src="./imgs/leaf_2.svg" alt="leaf" />
+              <p>
+                Lorem ipsum dolor sit amet consectetur. Quam ut consequat at a.
+                Diam lacus platea orci vel elit.
+              </p>
+            </div>
           </div>
         </div>
       </section>
@@ -140,7 +152,7 @@
             lacus platea orci vel elit blandit facilisis enim risus. Ut
             tristique eget integer odio nec.
           </p>
-          <button>Join now</button>
+          <a href="#">Join now</a>
         </div>
         <div class="branch_img_text">
           <div class="branch_img">
@@ -163,18 +175,20 @@
       </section>
     </main>
     <footer>
-      <div class="container">
-        <div class="footer__left">
-          <span class="circle"></span>
-          <h5>Logo</h5>
-        </div>
-        <div class="footer__right">
-          <ul>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Team</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
+      <div class="footer container">
+        <div class="company__address">
+          <div class="footer__left">
+            <span class="circle"></span>
+            <h5>Logo</h5>
+          </div>
+          <div class="footer__right">
+            <ul>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Team</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
         </div>
         <div class="footer_icons">
           <i class="fa-brands fa-twitter fa-bounce" style="color: #ffffff"></i>
