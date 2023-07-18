@@ -1,0 +1,631 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  font-size: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+.container {
+  max-width: 88%;
+  margin: auto;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 2.8rem;
+  margin-bottom: 6.4rem;
+}
+nav .nav__left {
+  display: flex;
+  align-items: center;
+  column-gap: 1.2rem;
+}
+nav .nav__left .circle {
+  display: inline-block;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background-color: #f4f4f4;
+}
+nav .nav__left h5 {
+  color: #285e67;
+  text-align: center;
+  font-size: 2.3rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 2.4rem;
+}
+
+nav .nav__right ul {
+  display: none;
+}
+nav .nav__right i {
+  font-size: 2.5rem;
+}
+
+.hero .hero__info h1 {
+  text-align: center;
+  font-size: 3.79rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 124.011%;
+  color: #2a2a2a;
+}
+.hero .hero__info p {
+  text-align: center;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  color: #2a2a2a;
+  margin-top: 1.7rem;
+  margin-bottom: 3.3rem;
+}
+.hero .hero__info button {
+  width: 211px;
+  text-align: center;
+  font-size: 2.133rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 112.518%;
+  color: #fff;
+  background-color: #285E67;
+  padding: 16px;
+  border: none;
+  border-radius: 67px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.hero .hero__imgs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 56px 0 36px;
+}
+.hero .hero__imgs img {
+  max-width: 100%;
+}
+.hero .hero__imgs .yoga {
+  margin-bottom: 3rem;
+}
+
+@media screen and (min-width: 1024px) {
+  nav .nav__right ul {
+    display: flex;
+    column-gap: 40px;
+  }
+  nav .nav__right ul a {
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    color: #2a2a2a;
+  }
+  nav .nav__right i {
+    display: none;
+  }
+  .hero .hero__info h1 {
+    font-size: 6.534rem;
+    line-height: 125.497%;
+  }
+  .hero .hero__imgs {
+    flex-direction: row;
+    column-gap: 28px;
+  }
+  .hero .hero__imgs img {
+    max-width: 42.7rem;
+    height: 39rem;
+  }
+  .hero .hero__imgs .yoga {
+    margin-bottom: 0;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .container {
+    max-width: 1300px;
+    margin: auto;
+  }
+  .hero .hero__imgs img {
+    max-width: 62.6rem;
+    height: 39rem;
+  }
+}
+#Wellbeing {
+  padding: 64px 0;
+  background-color: #f4f4f4;
+  border-radius: 12px;
+}
+#Wellbeing .wellbeing__left h2 {
+  text-align: center;
+  font-size: 3.97rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 133.501%;
+  color: #2a2a2a;
+  margin-bottom: 1.4rem;
+}
+
+.Wellbeing__data .data_1 p {
+  max-width: 255px;
+  text-align: center;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  margin: auto;
+  margin-top: 2rem;
+}
+.Wellbeing__data .data_1 img {
+  display: flex;
+  margin: auto;
+  margin-top: 2.6rem;
+}
+
+.wellbeing__right {
+  display: none;
+}
+
+@media screen and (min-width: 1024px) {
+  #Wellbeing .wellbeing__left h2 {
+    font-size: 5.052rem;
+    line-height: 122.724%;
+  }
+  .Wellbeing__data {
+    display: flex;
+    justify-content: center;
+    column-gap: 8.2rem;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .container {
+    max-width: 1300px;
+    margin: auto;
+  }
+  #Wellbeing {
+    display: flex;
+    padding: 112px;
+    justify-content: space-between;
+    margin-top: 9rem;
+  }
+  .wellbeing__right {
+    display: inline-block;
+  }
+  .Wellbeing__data .data_1 p {
+    text-align: start;
+  }
+  .Wellbeing__data .data_1 img {
+    margin-left: 0;
+  }
+}
+#organic_produce {
+  padding: 3.6rem 0;
+}
+#organic_produce .organic_produce__left img {
+  max-width: 100%;
+  display: flex;
+  margin: auto;
+}
+#organic_produce .organic_produce__right h2 {
+  text-align: center;
+  font-size: 3.97rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 123.426%;
+  color: #2a2a2a;
+  margin: 2.5rem 0 1.6rem;
+}
+#organic_produce .organic_produce__right > p {
+  text-align: center;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  color: #2a2a2a;
+  margin-bottom: 2.6rem;
+}
+
+.rose__data {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 2.6rem;
+  color: #285e67;
+}
+.rose__data .rose__info {
+  display: flex;
+  column-gap: 2.3rem;
+  align-items: center;
+}
+.rose__data .rose__info p {
+  text-align: start;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+#organic_produce .organic_produce__left .komp {
+  display: none;
+}
+
+@media screen and (min-width: 1024px) {
+  #organic_produce {
+    padding: 8rem 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  #organic_produce .organic_produce__left img {
+    max-width: 42.9rem;
+  }
+  #organic_produce .organic_produce__right {
+    max-width: 43rem;
+  }
+  #organic_produce .organic_produce__right h2 {
+    font-size: 5.052rem;
+    line-height: 122.724%;
+    margin-top: 0;
+    text-align: start;
+  }
+  #organic_produce .organic_produce__right > p {
+    text-align: start;
+    margin-bottom: 90px;
+  }
+  .rose__data {
+    row-gap: 5rem;
+  }
+  .rose__data .rose__info p {
+    text-align: start;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .container {
+    max-width: 1300px;
+    margin: auto;
+  }
+  #organic_produce {
+    align-items: center;
+    padding: 12rem 0;
+  }
+  #organic_produce .organic_produce__left .komp {
+    display: inline-block;
+    max-width: 100%;
+  }
+  #organic_produce .organic_produce__left .mobl {
+    display: none;
+  }
+  #organic_produce .organic_produce__right {
+    max-width: 62.3rem;
+  }
+}
+#food {
+  padding: 6.4rem 4rem;
+  background-color: #f4f4f4;
+  border-radius: 12px;
+  margin-bottom: 3.6rem;
+}
+#food .food__img {
+  display: none;
+}
+#food .food_data {
+  display: flex;
+  flex-direction: column;
+  row-gap: 4.1rem;
+}
+#food .food_data h2 {
+  text-align: center;
+  font-size: 3.97rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 118.388%;
+  color: #2a2a2a;
+}
+#food .food_data .food_data_text {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+}
+#food .food_data .food_data_text img {
+  display: flex;
+  margin: auto;
+}
+#food .food_data .food_data_text p {
+  text-align: center;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  color: #2a2a2a;
+}
+
+.food_data_2 {
+  display: flex;
+  flex-direction: column;
+  row-gap: 4.1rem;
+  margin: auto;
+}
+
+@media screen and (min-width: 1024px) {
+  #food {
+    padding: 6.4rem 11.4rem;
+    margin-bottom: 12rem;
+  }
+  #food .food__img {
+    display: none;
+  }
+  #food .food_data h2 {
+    font-size: 5.052rem;
+    line-height: 59.382%;
+    margin-bottom: 4.1rem;
+  }
+  #food .food_data .food_data_text p {
+    max-width: 237px;
+  }
+  .food_data_2 {
+    display: flex;
+    flex-direction: row;
+    column-gap: 6.9rem;
+    margin: auto;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .container {
+    max-width: 1300px;
+    margin: auto;
+  }
+  #food {
+    padding: 6.4rem 11.4rem;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+  }
+  #food .food__img {
+    display: inline-block;
+  }
+  #food .food_data {
+    row-gap: 10.1rem;
+  }
+  #food .food_data h2 {
+    font-size: 5.052rem;
+    line-height: 59.382%;
+    margin-bottom: 0;
+    text-align: start;
+  }
+  #food .food_data .food_data_text img {
+    display: flex;
+    margin-left: 0;
+  }
+  #food .food_data .food_data_text p {
+    max-width: 237px;
+    text-align: start;
+  }
+  .food_data_2 {
+    display: flex;
+    column-gap: 6.9rem;
+    margin: auto;
+  }
+}
+#welldoing {
+  width: 100%;
+  height: 354px;
+  background-image: url(../imgs/tyler-lastovich-AVzByhROPbs-unsplash\ 1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: center;
+}
+#welldoing .welldoing__info {
+  padding-top: 71px;
+}
+#welldoing .welldoing__info h3 {
+  max-width: 20.6rem;
+  text-align: center;
+  font-size: 2.133rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 145.335%;
+  color: #fff;
+  margin: auto;
+  margin-top: 13px;
+  margin-bottom: 1.3rem;
+}
+#welldoing .welldoing__info p {
+  display: none;
+}
+#welldoing .welldoing__info a {
+  width: 211px;
+  text-align: center;
+  font-size: 2.133rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 112.518%;
+  color: #fff;
+  padding: 16px;
+  border: 1px solid #f4f4f4;
+  border-radius: 67px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-bottom: 3.9rem;
+}
+#welldoing .welldoing__info img {
+  display: flex;
+  margin: auto;
+  width: 46.558px;
+  height: 41.474px;
+}
+
+.branch_img_text {
+  max-width: 29.8rem;
+  background-color: #fce2d7;
+  margin: auto;
+  text-align: center;
+  padding: 7.1rem 0;
+  display: flex;
+  flex-direction: column;
+  row-gap: 4.9rem;
+  border-radius: 12px;
+}
+.branch_img_text .branch_img p {
+  text-align: center;
+  font-size: 2.133rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 112.518%;
+  color: #2a2a2a;
+  margin-top: 1.8rem;
+}
+
+@media screen and (min-width: 1024px) {
+  #welldoing {
+    height: 66.7rem;
+  }
+  #welldoing .welldoing__info {
+    padding-top: 11rem;
+  }
+  #welldoing .welldoing__info h3 {
+    max-width: 60.4rem;
+    font-size: 37.9px;
+    line-height: 94.987%;
+    margin-top: 13px;
+    margin-bottom: 1.3rem;
+  }
+  #welldoing .welldoing__info p {
+    max-width: 65rem;
+    display: flex;
+    text-align: center;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    color: #fff;
+    margin: auto;
+    margin-bottom: 2.8rem;
+  }
+  #welldoing .welldoing__info a {
+    margin-bottom: 4.8rem;
+  }
+  #welldoing .welldoing__info img {
+    width: 92.116px;
+    height: 82.057px;
+  }
+  .branch_img_text {
+    max-width: 73.4rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (min-width: 1440px) {
+  .container {
+    max-width: 1300px;
+    margin: auto;
+  }
+  .branch_img_text {
+    padding: 11.9rem 6.6rem;
+    max-width: 116.5rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+footer {
+  margin-top: 80rem;
+  background-color: #285E67;
+  padding: 7.9rem;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  row-gap: 3.6rem;
+  align-items: center;
+}
+.footer .footer__left {
+  display: flex;
+  column-gap: 1rem;
+  align-items: center;
+}
+.footer .footer__left .circle {
+  display: inline-block;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background-color: #f4f4f4;
+}
+.footer .footer__left h5 {
+  color: #fff;
+  font-size: 2.3rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 2.4rem;
+}
+
+.footer .footer__right ul {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 3.6rem;
+  column-gap: 4rem;
+}
+.footer .footer__right ul a {
+  color: #fff;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+.footer .footer_icons {
+  display: flex;
+  column-gap: 2.4rem;
+}
+.footer .footer_icons .fa-brands {
+  font-size: 2.2rem;
+}
+
+.company__address {
+  display: flex;
+  flex-direction: column;
+  row-gap: 3.6rem;
+}
+
+@media screen and (min-width: 1024px) {
+  footer {
+    margin-top: 28rem;
+  }
+  .footer {
+    align-items: start;
+  }
+  .footer .footer__right ul {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+@media screen and (min-width: 1440px) {
+  .container {
+    max-width: 1300px;
+    margin: auto;
+  }
+  .company__address {
+    display: flex;
+    flex-direction: row;
+    column-gap: 72.8rem;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

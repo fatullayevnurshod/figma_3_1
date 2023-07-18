@@ -1,0 +1,80 @@
+#Wellbeing {
+  padding: 64px 0;
+  background-color: $background-logo-section;
+  border-radius: 12px;
+  .wellbeing__left {
+    h2 {
+      text-align: center;
+      font-size: 3.97rem;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 133.501%;
+      color: $color-p-h;
+      margin-bottom: 1.4rem;
+    }
+  }
+}
+.Wellbeing__data {
+  .data_1 {
+    p {
+      max-width: 255px;
+      text-align: center;
+      font-size: 1.6rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 150%;
+      margin: auto;
+      margin-top: 2rem;
+    }
+    img {
+      display: flex;
+      margin: auto;
+      margin-top: 2.6rem;
+    }
+  }
+}
+.wellbeing__right {
+  display: none;
+}
+
+@media screen and (min-width: 1024px) {
+  #Wellbeing {
+    .wellbeing__left {
+      h2 {
+        font-size: 5.052rem;
+        line-height: 122.724%;
+      }
+    }
+  }
+  .Wellbeing__data {
+    display: flex;
+    justify-content: center;
+    column-gap: 8.2rem;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .container {
+    max-width: 1300px;
+    margin: auto;
+  }
+  #Wellbeing {
+    display: flex;
+    padding: 112px;
+    justify-content: space-between;
+    margin-top: 9rem;
+  }
+  .wellbeing__right {
+    display: inline-block;
+  }
+  .Wellbeing__data {
+    .data_1 {
+      p {
+       text-align: start;
+      }
+      img {
+        margin-left:0 ;
+      }
+    }
+  }
+}

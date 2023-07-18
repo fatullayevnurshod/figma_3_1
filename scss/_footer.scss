@@ -1,0 +1,90 @@
+footer {
+  margin-top: 80rem;
+  background-color: $background-button;
+  padding: 7.9rem;
+}
+.footer {
+  display: flex;
+  flex-direction: column;
+  row-gap: 3.6rem;
+  align-items: center;
+
+  .footer__left {
+    display: flex;
+    column-gap: 1rem;
+    align-items: center;
+
+    .circle {
+      display: inline-block;
+      width: 26px;
+      height: 26px;
+      border-radius: 50%;
+      background-color: $background-logo-section;
+    }
+    h5 {
+      color: $color-footer-button;
+      font-size: 2.3rem;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 2.4rem;
+    }
+  }
+}
+.footer {
+  .footer__right {
+    ul {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      row-gap: 3.6rem;
+      column-gap: 4rem;
+
+      a {
+        color: $color-footer-button;
+        font-size: 1.6rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+      }
+    }
+  }
+  .footer_icons {
+    display: flex;
+    column-gap: 2.4rem;
+
+    .fa-brands {
+      font-size: 2.2rem;
+    }
+  }
+}
+.company__address {
+    display: flex;
+   flex-direction: column;
+   row-gap: 3.6rem;
+  }
+
+@media screen and (min-width: 1024px) {
+  footer {
+    margin-top: 28rem;
+  }
+  .footer {
+    align-items: start;
+    .footer__right {
+      ul {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .container {
+    max-width: 1300px;
+    margin: auto;
+  }
+  .company__address {
+    display: flex;
+    flex-direction: row;
+    column-gap: 72.8rem;
+  }
+}

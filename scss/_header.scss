@@ -1,0 +1,149 @@
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 2.8rem;
+  margin-bottom: 6.4rem;
+
+  .nav__left {
+    display: flex;
+    align-items: center;
+    column-gap: 1.2rem;
+
+    .circle {
+      display: inline-block;
+      width: 26px;
+      height: 26px;
+      border-radius: 50%;
+      background-color: $background-logo-section;
+    }
+    h5 {
+      color: #285e67;
+      text-align: center;
+      font-size: 2.3rem;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 2.4rem;
+    }
+  }
+}
+nav {
+  .nav__right {
+    ul {
+      display: none;
+    }
+    i {
+      font-size: 2.5rem;
+    }
+  }
+}
+.hero {
+  .hero__info {
+    h1 {
+      text-align: center;
+      font-size: 3.79rem;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 124.011%;
+      color: $color-p-h;
+    }
+    p {
+      text-align: center;
+      font-size: 1.6rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 150%;
+      color: $color-p-h;
+      margin-top: 1.7rem;
+      margin-bottom: 3.3rem;
+    }
+    button {
+      width: 211px;
+      text-align: center;
+      font-size: 2.133rem;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 112.518%;
+      color: $color-footer-button;
+
+      background-color: $background-button;
+      padding: 16px;
+      border: none;
+      border-radius: 67px;
+      display: flex;
+      justify-content: center;
+      margin: auto;
+    }
+  }
+}
+.hero {
+  .hero__imgs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    margin: 56px 0 36px;
+    img {
+      max-width: 100%;
+    }
+    .yoga {
+      margin-bottom: 3rem;
+    }
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  nav {
+    .nav__right {
+      ul {
+        display: flex;
+        column-gap: 40px;
+        a {
+          font-size: 1.6rem;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 150%;
+          color: $color-p-h;
+        }
+      }
+      i {
+        display: none;
+      }
+    }
+  }
+  .hero {
+    .hero__info {
+      h1 {
+        font-size: 6.534rem;
+        line-height: 125.497%;
+      }
+    }
+    .hero__imgs {
+      flex-direction: row;
+
+      column-gap: 28px;
+      img {
+        max-width: 42.7rem;
+        height: 39rem;
+      }
+      .yoga {
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .container {
+    max-width: 1300px;
+    margin: auto;
+  }
+  .hero {
+    .hero__imgs {
+      img {
+        max-width: 62.6rem;
+        height: 39rem;
+      }
+    }
+  }
+}

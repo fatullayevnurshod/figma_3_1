@@ -1,0 +1,120 @@
+#food {
+  padding: 6.4rem 4rem;
+  background-color: $background-logo-section;
+  border-radius: 12px;
+  margin-bottom: 3.6rem;
+  .food__img {
+    display: none;
+  }
+  .food_data {
+    display: flex;
+    flex-direction: column;
+    row-gap: 4.1rem;
+
+    h2 {
+      text-align: center;
+      font-size: 3.97rem;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 118.388%;
+      color: $color-p-h;
+    }
+    .food_data_text {
+      display: flex;
+      flex-direction: column;
+      row-gap: 2rem;
+      img {
+        display: flex;
+        margin: auto;
+      }
+      p {
+        text-align: center;
+        font-size: 1.6rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+        color: $color-p-h;
+      }
+    }
+  }
+}
+.food_data_2 {
+  display: flex;
+ flex-direction: column;
+ row-gap: 4.1rem;
+  margin: auto;
+}
+
+@media screen and (min-width: 1024px) {
+  #food {
+    padding: 6.4rem 11.4rem;
+    margin-bottom: 12rem;
+
+    .food__img {
+      display: none;
+    }
+    .food_data {
+      h2 {
+        font-size: 5.052rem;
+        line-height: 59.382%;
+        margin-bottom: 4.1rem;
+      }
+      .food_data_text {
+        p {
+          max-width: 237px;
+        }
+      }
+    }
+  }
+
+  .food_data_2 {
+    display: flex;
+    flex-direction: row;
+    column-gap: 6.9rem;
+    margin: auto;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .container {
+    max-width: 1300px;
+    margin: auto;
+  }
+  #food {
+    padding: 6.4rem 11.4rem;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+
+    .food__img {
+      display: inline-block;
+    }
+    .food_data {
+      row-gap: 10.1rem;
+
+      h2 {
+        font-size: 5.052rem;
+        line-height: 59.382%;
+        margin-bottom: 0;
+        text-align: start;
+      }
+      .food_data_text {
+        img {
+            display: flex;
+            margin-left: 0;
+          }
+        p {
+          max-width: 237px;
+          text-align: start;
+         
+        }
+      }
+    }
+  }
+
+  .food_data_2 {
+    display: flex;
+    column-gap: 6.9rem;
+    margin: auto;
+  }
+}
