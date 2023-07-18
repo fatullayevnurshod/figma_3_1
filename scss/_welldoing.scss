@@ -5,6 +5,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position-x: center;
+  border-radius: 18px;
   .welldoing__info {
     padding-top: 71px;
     h3 {
@@ -49,7 +50,7 @@
   }
 }
 .branch_img_text {
-  max-width: 29.8rem;
+  max-width: 90%;
   background-color: $background-branch_img_text;
   margin: auto;
   text-align: center;
